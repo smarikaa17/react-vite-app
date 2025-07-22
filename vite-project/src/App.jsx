@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import Smp from "./smp"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,8 +13,9 @@ function App() {
         </button>
       </div>
       <div className="bg-red-500 text-white p-4 rounded">
-  Tailwind is really working!
+  Tailwind is really working! 
 </div>
+<Smp/>
     </>
   )
 }
